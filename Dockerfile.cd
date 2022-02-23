@@ -1,0 +1,22 @@
+FROM node:14-slim
+
+ARG Environment
+ARG BuildNumber
+
+# Set-Up workdir
+RUN mkdir -p /home/work-space
+WORKDIR /home/work-space
+
+COPY . .
+
+# Create a production env file
+RUN echo REACT_APP_BUILD_NUMBER=$BuildNumber >> .env
+
+# Compile
+ENV NPM_CONFIG_LOGLEVEL=warn
+
+# This is not recommended by Dockerfile syntax, but here should be kept a bit of cache
+RUN echo 'Start NPM Install' && npm install --frozen-lockfile
+RUN echo 'Build Project' && npm run build --env=${Environment} && chmod -R 777 /home/work-space/build
+
+CMD cp -Rp /home/work-space/build/* /mnt

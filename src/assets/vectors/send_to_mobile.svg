@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>DEE5F3B5-5218-4A86-929E-37090815A922@1x</title>
+    <g id="↪️-Onboarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Register-verification-code" transform="translate(-651.000000, -788.000000)">
+            <g id="Group" transform="translate(651.000000, 780.000000)">
+                <g id="send_to_mobile-24px" transform="translate(0.000000, 8.000000)">
+                    <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                    <path d="M18,8 L22,12 L18,16 L16.59,14.59 L18.17,13 L13,13 L13,11 L18.17,11 L16.58,9.41 L18,8 Z M7,1.01 L17,1 C18.1,1 19,1.9 19,3 L19,7 L17,7 L17,6 L7,6 L7,18 L17,18 L17,17 L19,17 L19,21 C19,22.1 18.1,23 17,23 L7,23 C5.9,23 5,22.1 5,21 L5,3 C5,1.9 5.9,1.01 7,1.01 Z M7,21 L17,21 L17,20 L7,20 L7,21 Z M7,4 L17,4 L17,3 L7,3 L7,4 Z" id="Shape" fill="#283039" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
